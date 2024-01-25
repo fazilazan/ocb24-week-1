@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Love Letter</title>
+    <style>/*************************
+		Whole body of content
+	  *************************/
+	  body {
+		background: #fff7c9;
+		color: #636363;
+		font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	  }
+	  
+	  /************************************
+		Container to manage & group items
+	  *************************************/
+	  #container {
+		width: 960px;
+		margin: 0 auto;
+	  }
+	  
+	  /************************************
+		Header
+	  *************************************/
+	  #container > header {
+		height: 90px;
+	  }
+	  
+	  /************************************
+		Page-Text
+	  *************************************/
+	  section#page-text {
+		padding: 30px;
+		font: inherit;
+		font-size: 0.9em;
+		background: white;
+		box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+	  }
+	  
+	  section#page-text > h1 {
+		text-align: center;
+		font-size: 1.4em;
+		margin: 0.8em 0 1.6em;
+	  }
+	  
+	  section#page-text > h1:before,
+	  section#page-text > h1:after {
+		content: "~";
+		padding: 0 0.4em;
+		color: #bababa;
+	  }
+	  
+	  section#home-text p,
+	  section#page-text p {
+		line-height: 1.4em;
+		margin: 0.8em 0 0;
+		text-align: justify;
+	  }
+	  
+	  /************************************
+		Image
+	  *************************************/
+	  
+	  section#image > em {
+		overflow: hidden;
+		font-style: italic;
+	  }
+	  #image {
+		float: left;
+		width: 400px;
+		min-height: 500px; /*white height*/
+		margin-right: 25px;
+	  }
+	  
+	  /************************************
+	   content
+	  *************************************/
+	  span.thicker {
+		font-weight: 600;
+		font-style: italic;
+	  }
+	  section#home-text ul,
+	  section#page-text ul {
+		list-style-type: disc;
+		padding-left: 470px;
+	  }
+	  
+	  section#home-text li,
+	  section#page-text li {
+		margin-bottom: 10px;
+		font-style: italic;
+	  }
+	  section#home-text p.quote,
+	  section#page-text p.quote {
+		padding-left: 20px;
+		border-left: 3px solid #464545;
+		margin-left: 455px;
+	  }
+
+	  p.signature {
+  		font-style: italic;
+  		text-align: right;
+  		margin-top: 20px; /* Add some top margin for spacing */
+	}
+
+p.signature span {
+  display: block; /* Display the span as a block to move it to a new line */
+}
+
+	  </style>
+  </head>
+  <body>
+    <!-- Page Container -->
+    <div id="container">
+      <!-- Header -->
+      <header></header>
+      <!-- Main Content -->
+      <div>
+        <!-- Page Text -->
+        <section id="page-text">
+          <h1>Love Letter For My Dearest.</h1>
+          <div id="image">
+				<img src="img/poster.jpg" alt="US">
+				<p>
+					<em>Your touch is the sweetest poetry written on my skin.</em>
+				</p>
+          </div>
+          <p>
+            I find it hard to put into words the depth of my feelings for you,
+            but I'll try. From the moment we met, my world has been <span class="thicker">brighter and
+            warmer.</span> Your kindness and the way you always make me laugh
+            continually remind me why I fell for you.
+          </p>
+          <p>
+			<ul>
+				<li>You bring <strong>joy and love</strong> into my life.</li>
+				<li>Your <strong>constant support</strong> is my anchor in both good times and bad.</li>
+				<li>The moments we share, create a tapestry of beautiful memories.</li>
+			  </ul>
+		  <p class="quote">
+				"In your eyes, I found my home, and in your heart, I found my love."
+		  </p>
+          <p>
+            Thank you for being my confidant and partner. I look forward to
+            creating more beautiful moments together. I love you more than words
+            can express.Thank you for being my confidant and partner. I look
+            forward to creating more beautiful moments together. 
+          </p>
+		  <p class="signature">
+			Forever Yours,
+			<span>[......]</span>
+		  </p>
+		  
+        </section>
+  </body>
+</html>
